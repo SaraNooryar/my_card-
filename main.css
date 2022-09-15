@@ -1,0 +1,52 @@
+
+body
+{
+    direction: rtl;
+}
+
+
+*
+{
+    box-sizing: border-box;
+    font-family:'roboto', sans-serif;
+}
+.my_card
+{
+    width: 12rem;
+    border: 1px solid gray;
+    border-radius: 0.7rem;
+}
+.my_card img
+{
+    width: 100%;
+    height: 20%;
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.my_card p
+{
+    margin: 1rem;
+    font-weight: 100;
+}
+
+.my_card h4
+{
+    margin: 1rem;
+}
+.my_card button
+{
+    margin: 1rem;
+    background-color: crimson;
+    border: none;
+    outline:none;
+    padding: 0.5rem 4rem;
+    border-radius:4px;
+    color: white;
+    cursor: pointer;
+    border-radius:4px;
+    width: 80%;
+    font-size:18px;
+
+}
